@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN cd /tmp \
   && unzip mysql-connector-java-5.1.46.zip \
-  && cp mysql-connector-java-5.1.46\mysql-connector-java-5.1.46-bin.jar /usr/share/tomcat7/lib \
+  && cp mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar /usr/share/tomcat7/lib \
   && rm -rf /tmp/*
 
 ENV TOMCAT_RUN_USER tomcat7
