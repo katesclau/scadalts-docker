@@ -2,10 +2,11 @@ FROM ubuntu:16.04
 
 MAINTAINER Diego Ferreira version: 0.1
 
+RUN ls -la
 COPY ScadaBR.war /tmp/ScadaBR.war
 COPY ScadaLTS.war /tmp/ScadaLTS.war
 COPY context.xml /var/lib/tomcat7/conf
-COPY mysql-connector-java-* /usr/share/tomcat7/lib/
+COPY mysql_connectors/* /usr/share/tomcat7/lib/
 COPY start.sh /tmp/start.sh
 
 RUN apt-get update && apt-get install -y \
