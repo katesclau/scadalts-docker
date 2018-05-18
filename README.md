@@ -24,5 +24,5 @@ Yes - pull with
 ## Visit ScadaLTS project ##
 https://github.com/SCADA-LTS & www.scada-lts.org
 
-Tagged image versions are released on katesclau/scadalts-dev:VERSION after a release on
+Tagged image versions are released on katesclau/scadalts-docker:VERSION after a release on
 https://github.com/SCADA-LTS/Scada-LTS/releases
