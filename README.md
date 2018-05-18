@@ -11,7 +11,7 @@ Docker image creation kit
 1. build . -t <USER>/scadalts-dev
 
 ## How to run ##
-`docker run -it -e DOCKER_HOST_IP=127.0.0.1 -p 8080:8080 katesclau/scadalts-dev /tmp/start.sh`
+`docker run -it -e DOCKER_HOST_IP=127.0.0.1 -p 8080:8080 katesclau/scadalts-docker`
 
 check http://localhost:8080/ScadaBR (old UI) & http://localhost:8080/ScadaLTS (New UI, WIP)
 
@@ -19,7 +19,7 @@ __initial login => admin:admin__
 
 ## Is this on Docker Hub? ##
 Yes - pull with
-`docker pull katesclau/scadalts-dev`
+`docker pull katesclau/scadalts-docker`
 
 ## Visit ScadaLTS project ##
 https://github.com/SCADA-LTS & www.scada-lts.org
