@@ -12,7 +12,9 @@ ENV CATALINA_HOME /var/lib/tomcat7
 ADD ./ScadaBR.war /tmp/ScadaBR.war
 ADD ./ScadaLTS.war /tmp/ScadaLTS.war
 ADD ./context.xml /var/lib/tomcat7/conf
-ADD ./mysql-connector-java-* /usr/share/tomcat7/lib/
+ADD ./mysql-connector-java-3.1.8-bin.jar /usr/share/tomcat7/lib/
+ADD ./mysql-connector-java-5.1.7-bin.jar /usr/share/tomcat7/lib/
+ADD ./mysql-connector-java-5.1.38-bin.jar /usr/share/tomcat7/lib/
 ADD ./start.sh /tmp/start.sh
 
 # Ensures that our script is runnable
